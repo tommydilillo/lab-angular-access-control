@@ -1,0 +1,14 @@
+<form (ngSubmit)="addAccessItem(form)" class="form" #form="ngForm">
+  <div>
+    <label>Person</label>
+    <input type="string" name="person" [(ngModel)]="person" placeholder="Your name" required />
+  </div>
+  <div>
+    <label>Message</label>
+    <input type="string" name="message" placeholder="Why are you here?" [(ngModel)]="message">
+  </div>
+
+  <button type="submit">Submit</button>
+</form>
+
+<p [class]="displayMessage">{{successMessage}}</p>

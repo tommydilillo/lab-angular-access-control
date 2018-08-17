@@ -1,0 +1,46 @@
+input{
+    border:0;
+    outline:0;
+    transition: 2000ms;
+    width: 100%;
+  border-bottom: 1px solid #5362f1;
+  background: transparent;
+  margin: 1em 0;
+  box-sizing: border-box;
+  padding: 1em 0;
+}
+
+
+.form {
+    background: #eecf7a;
+    width: 400px;
+    margin: auto;
+    padding: 3em;
+}
+
+button{
+    background: #fff;
+    width: 100%;
+    border:0;
+    padding: 1em;
+    text-align: center;
+    cursor: pointer;
+    outline:0;
+    margin: 1em 0 0 0 
+}
+button:hover{
+    transition: 2000ms;
+    background: #5362f1;
+    color:#fff;
+} 
+
+.message{
+    background: #5362f1;
+    color:#fff;
+    padding: .5em;
+    text-align: center;
+}
+
+.display-none {
+    display: none
+}
